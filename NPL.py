@@ -1,6 +1,11 @@
+# Author: Melnyk Danyil
+# Date: 23.06.2024
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+import statsmodels.api as sm
+import statsmodels.formula.api as smf
 
 # Річний рівень дефолту
 # з 01.20 до 12.22
@@ -445,9 +450,6 @@ print("LN_CPI_change: ")
 print(correlation1, correlation2, correlation3, correlation4, correlation5)
 
 
-import statsmodels.api as sm
-import statsmodels.formula.api as smf
-
 # Linear Regression
 
 # data = pd.DataFrame(
@@ -478,9 +480,6 @@ import statsmodels.formula.api as smf
 
 # Beta Regression
 
-import numpy as np
-import pandas as pd
-import statsmodels.api as sm
 
 data = pd.DataFrame(
     {
